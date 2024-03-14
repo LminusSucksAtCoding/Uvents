@@ -1,4 +1,4 @@
-local nodes = 
+local nodes =
 {
 	--{"node_name", "node description", "texture (optional to omit if the texture is same name as node uvents_name)"},
 	{"ceiling_tile", "Small ceiling A/C Unit", "uvents_small_ac", },
@@ -33,7 +33,7 @@ for i = 1, #nodes, 1 do
 		palette = "unifieddyes_palette_colorwallmounted.png",
 		groups = {cracky = 2, ud_param2_colorable = 1, },
 		inventory_image = node_texture,
-		tiles = 
+		tiles =
 		{
 			"uvents_ventilation_shaft.png",
 			node_texture,
