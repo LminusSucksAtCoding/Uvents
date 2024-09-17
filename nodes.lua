@@ -27,10 +27,8 @@ for _,def in ipairs(nodes) do
 	minetest.register_node(node_name,
 	{
 		description = node_description,
-		paramtype = "none",
-		paramtype2 = "colorfacedir",
-		palette = "unifieddyes_palette_colorwallmounted.png",
-		groups = {cracky = 2, ud_param2_colorable = 1, },
+		paramtype2 = "facedir",
+		groups = {cracky = 2,},
 		inventory_image = node_texture,
 		tiles =
 		{
